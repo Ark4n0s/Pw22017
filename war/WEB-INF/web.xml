@@ -12,6 +12,119 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>SistemaRegistroIE</servlet-name>
 		<url-pattern>/sistemaregistroie</url-pattern>
 	</servlet-mapping>
+		<!-- ASIGNATURA -->
+		<servlet>
+		<servlet-name>Recurso</servlet-name>
+		<servlet-class>Controladores.Recurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Recurso</servlet-name>
+		<url-pattern>/recurso</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Tipo</servlet-name>
+		<servlet-class>Controladores.Tipo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Tipo</servlet-name>
+		<url-pattern>/tipo</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>Usuario</servlet-name>
+		<servlet-class>Controladores.Usuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Usuario</servlet-name>
+		<url-pattern>/usuario</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+		<servlet-name>EliminarRecurso</servlet-name>
+		<servlet-class>Controladores.EliminarRecurso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EliminarRecurso</servlet-name>
+		<url-pattern>/eliminarrecurso</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EliminarTipo</servlet-name>
+		<servlet-class>Controladores.EliminarTipo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EliminarTipo</servlet-name>
+		<url-pattern>/eliminartipo</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>EliminarUsuario</servlet-name>
+		<servlet-class>Controladores.EliminarUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EliminarUsuario</servlet-name>
+		<url-pattern>/eliminarusuario</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>VerPermisos</servlet-name>
+		<servlet-class>Controladores.VerPermisos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VerPermisos</servlet-name>
+		<url-pattern>/verpermisos</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Permiso</servlet-name>
+		<servlet-class>Controladores.Permiso</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Permiso</servlet-name>
+		<url-pattern>/permiso</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GmailServlet</servlet-name>
+		<servlet-class>Controladores.GmailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GmailServlet</servlet-name>
+		<url-pattern>/gmail</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GmailServletOut</servlet-name>
+		<servlet-class>Controladores.GmailServletOut</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GmailServletOut</servlet-name>
+		<url-pattern>/gmailOut</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+		<servlet-name>Upload</servlet-name>
+		<servlet-class>Controladores.Upload</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Upload</servlet-name>
+		<url-pattern>/upload</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Serve</servlet-name>
+		<servlet-class>Controladores.Serve</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Serve</servlet-name>
+		<url-pattern>/serve</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+		<!-- INDEX -->
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
